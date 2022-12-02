@@ -247,12 +247,12 @@ width: 95%;
       
     }
     .game-container {
-        padding: 130px 40px;
+        
         position: relative;
       
-        height: 500px;
+        height: 300px;
         width: 80%;
-        margin: 50px;
+        
         border-radius: 20px;
         /* From https://css.glass */
       background: rgba(255, 255, 255, 0.2);
