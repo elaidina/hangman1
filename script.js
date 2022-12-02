@@ -101,6 +101,7 @@ const wrongLetters = [];
 
 // Show hidden word
 function displayWord() {
+    wordEl.focus();
 	wordEl.innerHTML = `
     ${selectedWord
 			.split('')
