@@ -46,7 +46,7 @@ background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
     justify-content: center;
     text-align: center;
    padding: 0.5rem;
-    margin: 50px;
+    margin: 20px;
         border-radius: 20px;
 
 width: 50%;
@@ -90,7 +90,7 @@ h1 {
 
   height: 350px;
   width: 50%;
-  margin: 50px;
+  margin: 20px;
   border-radius: 20px;
   /* From https://css.glass */
 background: rgba(255, 255, 255, 0.2);
@@ -226,7 +226,7 @@ border: 1px solid rgba(255, 255, 255, 0.3);
     text-align: center;
     margin: auto;
 width: 95%;
-   margin: 1rem;
+  
    padding: 1rem;
   }
 
