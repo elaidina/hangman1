@@ -40,7 +40,8 @@ background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
 
 
 .viewWords {
-    font-size: 1rem;
+    font-size: 1.1rem;
+    color: rgb(51, 2, 2);
     border: 2px solid black;
     align-self: center;
     justify-content: center;
@@ -50,17 +51,11 @@ background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
         border-radius: 20px;
 
 width: 50%;
-    background: #ff512f; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #dd2476,
-    #ff512f
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #dd2476,
-    #ff512f
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background-color: #08AEEA;
+background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+);
+
+
   }
 
 h1 {
@@ -78,7 +73,7 @@ h1 {
     #cd6c59
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-  margin: 0;
+  margin: 0 auto;
   padding: 1rem;
   border: 2px solid black;
   box-shadow: 3px 5px 15px 5px rgba(0, 0, 0, 0.493);
@@ -219,7 +214,7 @@ border: 1px solid rgba(255, 255, 255, 0.3);
   }
 
   .viewWords {
-    font-size: 0.8rem;
+    font-size: 1rem;
     border: 2px solid black;
     align-self: center;
     justify-content: center;
@@ -250,9 +245,9 @@ width: 95%;
         
         position: relative;
       
-        height: 300px;
-        width: 80%;
-        
+        height: 500px;
+        width: 90%;
+        padding: 80px;
         border-radius: 20px;
         /* From https://css.glass */
       background: rgba(255, 255, 255, 0.2);

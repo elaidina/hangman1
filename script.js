@@ -88,7 +88,8 @@ const words = ['vilnius',
 'oslo',
 'brasilia',
 'kodan',
-'dublin',
+'dublin'
+,'soul'
 ];
 
 let selectedWord = words[(Math.floor(Math.random() * words.length))];
